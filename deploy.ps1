@@ -1,5 +1,5 @@
 ###########################################
-#  SunPoya Full Deploy Script
+#  SunPoya Full Deploy Script (ahmad-zahir)
 #  Fix paths → Build → Deploy → Git Push
 ###########################################
 
@@ -33,11 +33,11 @@ npm run build
 Write-Host "Deploying build to GitHub Pages..." -ForegroundColor Yellow
 npm run deploy
 
-# 6. Git add, commit, push
-Write-Host "Sending code changes to GitHub repository..." -ForegroundColor Yellow
+# 6. Git add, commit, push → to ahmad-zahir branch
+Write-Host "Sending code changes to GitHub repository (branch: ahmad-zahir)..." -ForegroundColor Yellow
 git add .
 git commit -m "Auto deploy: fixed paths, css warnings, updated build"
-git push origin main
+git push origin ahmad-zahir
 
 Write-Host "`nDeployment complete!" -ForegroundColor Green
 Write-Host "Your site is live at:"
