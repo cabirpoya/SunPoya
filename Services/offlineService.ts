@@ -2,7 +2,7 @@
   console.warn("OFFLINE MODE: No real AI. Returning sample text.");
   
   return `
-🎵 DEMO OUTPUT (NO AI)
+ðŸŽµ DEMO OUTPUT (NO AI)
 Poem received:
 "${poem}"
 
