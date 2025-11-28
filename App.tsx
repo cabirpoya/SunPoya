@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { generateSongFromPoem, generatePerformanceAudio } from "./services/openrouterService";
+import { generateSongFromPoem, generatePerformanceAudio } from "./services/offlineService";
 import { SongStructure } from './types';
 import SongCard from './components/SongCard';
 import { SparklesIcon } from './components/Icons';
