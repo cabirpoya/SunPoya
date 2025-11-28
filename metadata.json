@@ -1,0 +1,5 @@
+{
+  "name": "Barbat AI - Persian Music Composer",
+  "description": "An AI-powered composer that transforms Persian poetry into musical structures, scales, and instrumentation using the Gemini API.",
+  "requestFramePermissions": []
+}
