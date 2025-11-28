@@ -1,4 +1,6 @@
-﻿export async function generateSongFromPoem(poem: string) {
+// services/openrouterService.ts
+
+export async function generateSongFromPoem(poem: string) {
   const apiKey = process.env.OPENROUTER_API_KEY;
 
   if (!apiKey) {
@@ -49,5 +51,4 @@ export async function generatePerformanceAudio(poem: string) {
   });
 
   const data = await response.json();
-  return data.choices?.[0]?.message?.content || null;
-}
+  return data.choices?.[0]?.message?.content || n
